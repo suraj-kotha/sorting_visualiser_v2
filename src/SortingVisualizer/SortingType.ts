@@ -1,0 +1,1 @@
+export type SortingType = (array: number[]) => any[][]

@@ -1,0 +1,43 @@
+
+html {
+  background: #ffffff;
+  margin: 16px 16px;
+  width: 100%;
+}
+
+#center-div {
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+.center-div-keep-width {
+  margin: auto auto;
+  text-align: center;
+}
+
+#items-div {
+  height: 42vw;
+  position: relative;
+}
+
+.array-item {
+  display: inline-block;
+  margin: 0 0 2px 2px;
+  transition: height 0.3s;
+  position: sticky;
+  top: 999999px;
+}
+
+#buttons-div {
+  height: 30%;
+  margin: 20px 0 20px 0;
+}
+
+div button {
+  margin: 0 10px;
+}
+
+.flex-div {
+  display: flex;
+  margin: 0 35%;
+}
